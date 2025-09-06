@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background1">
+
+    <!--FIXME: You are using ConstraintLayout attributes inside a LinearLayout. These do nothing.-->
+    <TextView
+        android:id="@+id/brand_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Brand"
+        android:layout_marginTop="100dp"
+        android:textAlignment="center"
+        android:textSize="80sp"
+        android:textColor="@color/white"
+        android:typeface="serif"/>
+
+    <Button
+        android:id="@+id/sign_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP"
+        android:textSize="25sp"
+        android:layout_marginTop="150dp"
+        android:layout_marginHorizontal="100dp"
+        android:backgroundTint="@color/cardview_dark_background"/>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:textSize="20sp"
+        android:layout_marginHorizontal="100dp"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="@color/cardview_shadow_end_color"
+        android:textColor="@color/white"
+        android:outlineSpotShadowColor="@color/white"/>
+        <!--FIXME: outlineSpotShadowColor only works with API 28+ and not on LinearLayout-->
+
+
+
+
+    <TextClock
+        android:id="@+id/clock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:layout_marginTop="120dp"/>
+
+    <TextView
+       android:id="@+id/view_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textSize="18sp"/>
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/background1">
+
+    <!-- FIXME: ConstraintLayout attributes do nothing in LinearLayout -->
+    <TextView
+        android:id="@+id/brand_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Brand"
+        android:layout_marginTop="100dp"
+        android:textAlignment="center"
+        android:textSize="80sp"
+        android:textColor="@color/white"
+        android:typeface="serif"/>
+
+    <EditText
+        android:id="@+id/EditTextName"
+        android:layout_width="match_parent"
+        android:textColorHint="@color/white"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="@string/NAME"
+        android:textColor="@color/white"
+        android:maxLines="1"
+        android:layout_marginHorizontal="35dp"
+        android:layout_marginTop="50dp"/>
+
+    <EditText
+        android:id="@+id/EditTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="@string/email"
+        android:textColor="@color/white"
+        android:maxLines="1"
+        android:textColorHint="@color/white"
+        android:layout_marginHorizontal="35dp"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/EditTextPassword"
+        android:layout_width="match_parent"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:textColorHint="@color/white"
+        android:hint="@string/password"
+        android:maxLines="1"
+        android:layout_marginHorizontal="35dp"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/ButtonCreateAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CREATE ACCOUNT"
+        android:textSize="20sp"
+        android:layout_marginHorizontal="75dp"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="@color/cardview_shadow_end_color"
+        android:textColor="@color/white"
+        android:outlineSpotShadowColor="@color/white" />
+
+
+
+
+</LinearLayout>

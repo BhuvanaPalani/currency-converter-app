@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/sacramento"
+    tools:context=".moneyApp.MainActivity">
+
+    <ImageView
+        android:id="@+id/exchangeLogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/exchange_logo"
+        android:contentDescription="@string/exchange_logo"
+        android:layout_marginBottom="32dp"/>
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/montserrat_medium"
+        android:text="@string/x_changer"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textViewExchangeRates"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="48dp"
+        android:fontFamily="@font/montserrat"
+        android:text="@string/find_the_best_cash_exchange_rates"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="27sp" />
+
+    <Button
+        android:id="@+id/buttonContinue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/marigold"
+        android:fontFamily="@font/montserrat_bold"
+        android:padding="12dp"
+        android:textSize="14sp"
+        android:text="@string/button_continue" />
+
+</LinearLayout>
